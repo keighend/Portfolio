@@ -642,7 +642,7 @@ body:not(.user-is-tabbing) a:focus {
     scroll-behavior: smooth;
 }
 
-.about__gallery .about__image {
+.about__photo-container .about__photo {
     flex: 0 0 75%;
     max-width: 75%;
     height: auto;
