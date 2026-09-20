@@ -634,3 +634,17 @@ body:not(.user-is-tabbing) a:focus {
     flex: 0 0 75%;
     max-width: 75%;
 }
+
+.about__gallery {
+    display: flex;
+    gap: var(--gutter-normal);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.about__gallery .about__image {
+    flex: 0 0 75%;
+    max-width: 75%;
+    height: auto;
+    object-fit: cover;
+}
